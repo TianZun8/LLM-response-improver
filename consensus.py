@@ -99,9 +99,9 @@ def main():
         response = improve_with_anthropic(response, improved_prompt)
 
         print("\nFinal optimized response:")
-        print("=" * 50)
+        print("=" * 30)
         print(response)
-        print("=" * 50)
+        print("=" * 30)
 
     except Exception as e:
         logging.error(f"Pipeline failed: {e}")
